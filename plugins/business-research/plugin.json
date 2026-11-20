@@ -1,0 +1,11 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "business-research",
+  "version": "1.0.0",
+  "description": "业务调研。根据调研纪要和 Excel 重点编写可编辑的 Word 报告，支持批注修订、跨单位分析及业务流程泳道图。",
+  "extensions": {
+    "com.openai": {
+      "requires_local_executor": true
+    }
+  }
+}
